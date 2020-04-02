@@ -1,0 +1,682 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-01T14:37:28.009Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:28.009Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:28.009Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6030242100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "match": {
+              "location": "GenericStepdef.i_am_on_the_ten10_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I click JOIN",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "I click JOIN",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2727055700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click JOIN",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JOIN",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericStepdef.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\n\tat org.testng.AssertJUnit.fail(AssertJUnit.java:59)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)\r\n\tat com.ten10.example.stepdefs.GenericStepdef.the_title_matches(GenericStepdef.java:39)\r\n\tat ✽.The title matches \u0027The Application Process - Apply Today\u0027(file:src/test/resources/features/example.feature:7)\r\n",
+              "duration": 20433300,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Application Process - Apply Today",
+                  "offset": 19
+                }
+              ],
+              "location": "GenericStepdef.the_title_matches(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:45.029Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:45.029Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:45.029Z",
+        "line": 11,
+        "name": "Navigate to JOIN and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2405254100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "match": {
+              "location": "GenericStepdef.i_am_on_the_ten10_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I click JOIN",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "I click JOIN",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1285597600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click JOIN",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JOIN",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericStepdef.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\n\tat org.testng.AssertJUnit.fail(AssertJUnit.java:59)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)\r\n\tat com.ten10.example.stepdefs.GenericStepdef.the_title_matches(GenericStepdef.java:39)\r\n\tat ✽.The title matches \u0027The Application Process - Apply Today\u0027(file:src/test/resources/features/example.feature:7)\r\n",
+              "duration": 9229700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Application Process - Apply Today",
+                  "offset": 19
+                }
+              ],
+              "location": "GenericStepdef.the_title_matches(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:55.675Z",
+        "line": 12,
+        "name": "Navigate to SERVICES and verify title is Software Testing Services",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:55.675Z",
+        "line": 12,
+        "name": "Navigate to SERVICES and verify title is Software Testing Services",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:37:55.675Z",
+        "line": 12,
+        "name": "Navigate to SERVICES and verify title is Software Testing Services",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3590457200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "match": {
+              "location": "GenericStepdef.i_am_on_the_ten10_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1196639200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click SERVICES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericStepdef.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027Software Testing Services\u0027",
+            "keyword": "Then "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027Software Testing Services\u0027",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8592700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The title matches \u0027Software Testing Services\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software Testing Services",
+                  "offset": 19
+                }
+              ],
+              "location": "GenericStepdef.the_title_matches(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:06.680Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:06.680Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:06.680Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2911166100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "match": {
+              "location": "GenericStepdef.i_am_on_the_ten10_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1407667400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click SERVICES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericStepdef.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\n\tat org.testng.AssertJUnit.fail(AssertJUnit.java:59)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)\r\n\tat com.ten10.example.stepdefs.GenericStepdef.the_title_matches(GenericStepdef.java:39)\r\n\tat ✽.The title matches \u0027The Application Process - Apply Today\u0027(file:src/test/resources/features/example.feature:7)\r\n",
+              "duration": 8392700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Application Process - Apply Today",
+                  "offset": 19
+                }
+              ],
+              "location": "GenericStepdef.the_title_matches(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:18.055Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:18.055Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-01T14:38:18.055Z",
+        "line": 13,
+        "name": "Navigate to SERVICES and verify title is The Application Process - Apply Today",
+        "description": "",
+        "id": "navigation-examples-using-bdd-and-frameworkium;navigate-to-\u003clink\u003e-and-verify-title-is-\u003ctitle\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2764256100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Ten10 homepage",
+            "match": {
+              "location": "GenericStepdef.i_am_on_the_ten10_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "I click SERVICES",
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1757997700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click SERVICES",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericStepdef.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\n\tat org.testng.AssertJUnit.fail(AssertJUnit.java:59)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)\r\n\tat org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)\r\n\tat com.ten10.example.stepdefs.GenericStepdef.the_title_matches(GenericStepdef.java:39)\r\n\tat ✽.The title matches \u0027The Application Process - Apply Today\u0027(file:src/test/resources/features/example.feature:7)\r\n",
+              "duration": 7842700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "The title matches \u0027The Application Process - Apply Today\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Application Process - Apply Today",
+                  "offset": 19
+                }
+              ],
+              "location": "GenericStepdef.the_title_matches(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          },
+          {
+            "name": "@example"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation examples using BDD and Frameworkium",
+    "description": "",
+    "id": "navigation-examples-using-bdd-and-frameworkium",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/example.feature",
+    "tags": []
+  }
+]
